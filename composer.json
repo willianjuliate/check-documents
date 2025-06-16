@@ -1,0 +1,22 @@
+{
+    "name": "sys/checkdocuments",
+    "description": "Verifies the authenticity of documents using official check digit calculation algorithms.",
+    "type": "library",
+    "version": "0.0.1",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sys\\": "Sys/"
+        }
+    },
+    "authors": [
+        {
+            "name": "willianjuliate",
+            "email": "willianjuliate@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=8.3"
+    }
+}
