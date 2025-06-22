@@ -3,7 +3,7 @@
 namespace Sys\Core;
 
 /**
- * Classe abstrata para responsavel por limpar a formatacao do documento
+ * Classe abstrata responsavel por limpar a formatacao do documento
  * Todas classes como CNPJ e CPF Herdam-as e implementa o seu metodo fmt_document
  * @author willian
  */
