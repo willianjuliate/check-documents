@@ -3,8 +3,8 @@
 namespace Sys\Core;
 
 /**
- * Description of BaseFormat
- *
+ * Classe abstrata para responsavel por limpar a formatacao do documento
+ * Todas classes como CNPJ e CPF Herdam-as e implementa o seu metodo fmt_document
  * @author willian
  */
 abstract class Format
