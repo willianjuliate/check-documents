@@ -5,8 +5,7 @@ namespace Sys\Core\Br;
 use Sys\Core\Format;
 
 /**
- * Description of CNPJ
- *
+ * Classe CNPJ responsável por calcular e formatar o documento informado
  * @author willian juliate
  */
 class CNPJ extends Format
@@ -41,6 +40,10 @@ class CNPJ extends Format
         return $this->document[13] == ($second_digit < 2 ? 0 : 11 - $second_digit);
     }
 
+    /**
+     * Retorna o documento formatado ex: 266921350001-59 -> 26.692.135/0001-59
+     * @return string
+     */
     public function getFmtDocument(): string
     {
         return $this->fmt_document();
